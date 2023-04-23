@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Login</h1>
+	<form>
+		<label for='email'>Email:</label>
+		<input type='text' id='email' name='email'><br><br>
+		<label for='password'>Password:</label>
+		<input type='password' id='password' name='password'><br><br>
+		<input type='submit' value='Submit' onclick='login()'>
+	</form>
+	<script>
+		function login() {
+			var email = document.getElementById('email').value;
+			var password = document.getElementById('password').value;
+			console.log(email);
+			console.log(password);
+		}
+	</script>
+</body>
+</html>

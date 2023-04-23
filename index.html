@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel='stylesheet' href='style.css'>
+	<script src='script.js'></script>
+</head>
+<body>
+	<h1>Welcome to the Dashboard</h1>
+	<form>
+		<label for='api_key'>API Key:</label>
+		<input type='text' id='api_key' name='api_key'><br><br>
+		<label for='secret_key'>Secret Key:</label>
+		<input type='text' id='secret_key' name='secret_key'><br><br>
+		<label for='passphrase'>Passphrase:</label>
+		<input type='text' id='passphrase' name='passphrase'><br><br>
+		<input type='submit' value='Submit' onclick='storeAPICredentials()'>
+	</form>
+</body>
+</html>
